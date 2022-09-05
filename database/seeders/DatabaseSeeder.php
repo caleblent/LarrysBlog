@@ -51,8 +51,7 @@ class DatabaseSeeder extends Seeder
             "slug" => "lifestyle-post",
             "title" => "Lifestyle Post",
             "excerpt" => "Excerpt from the first post",
-            "body" => "<p>Lorem ipsum and et cetera, insert
-            other miscellaneous test post info here.</p>"
+            "body" => "<p>Lorem ipsum and et cetera, insert other miscellaneous test post info here.</p>"
         ]);
 
         Post::create([
@@ -61,8 +60,7 @@ class DatabaseSeeder extends Seeder
             "slug" => "technology-post",
             "title" => "Technology Post",
             "excerpt" => "Excerpt from the second post",
-            "body" => "<p>Lorem ipsum and et cetera, insert
-            other miscellaneous test post info here.</p>"
+            "body" => "<p>Lorem ipsum and et cetera, insert other miscellaneous test post info here.</p>"
         ]);
 
         Post::create([
@@ -71,8 +69,7 @@ class DatabaseSeeder extends Seeder
             "slug" => "business-post",
             "title" => "Business Post",
             "excerpt" => "Excerpt from the third post",
-            "body" => "<p>Lorem ipsum and et cetera, insert
-            other miscellaneous test post info here.</p>"
+            "body" => "<p>Lorem ipsum and et cetera, insert other miscellaneous test post info here.</p>"
         ]);
 
         Post::create([
@@ -81,8 +78,7 @@ class DatabaseSeeder extends Seeder
             "slug" => "business-post-2",
             "title" => "Business Business Post",
             "excerpt" => "Excerpt from the fourth post",
-            "body" => "<p>Lorem ipsum and et cetera, insert
-            other miscellaneous test post info here.</p>"
+            "body" => "<p>Lorem ipsum and et cetera, insert other miscellaneous test post info here.</p>"
         ]);
 
         Post::create([
@@ -91,8 +87,7 @@ class DatabaseSeeder extends Seeder
             "slug" => "life-must-have-style",
             "title" => "Life Must Have Style",
             "excerpt" => "Excerpt from the fifth post",
-            "body" => "<p>Lorem ipsum and et cetera, insert
-            other miscellaneous test post info here.</p>"
+            "body" => "<p>Lorem ipsum and et cetera, insert other miscellaneous test post info here.</p>"
         ]);
 
         Post::create([
@@ -101,8 +96,7 @@ class DatabaseSeeder extends Seeder
             "slug" => "newest-tech",
             "title" => "Newest Tech",
             "excerpt" => "Excerpt from the sixth post",
-            "body" => "<p>Lorem ipsum and et cetera, insert
-            other miscellaneous test post info here.</p>"
+            "body" => "<p>Lorem ipsum and et cetera, insert other miscellaneous test post info here.</p>"
         ]);
 
 
