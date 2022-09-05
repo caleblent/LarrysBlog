@@ -4,12 +4,6 @@
         </option>
         <option value="personal">Technology</option>
         <option value="business">Business</option>
-        <!-- @foreach ($categories as $category)
-        <option value="{{ $category }}"
-        ></option>
-
-        @endforeach -->
-        
     </select>
 
     <svg class="transform -rotate-90 absolute pointer-events-none" style="right: 12px;" width="22"

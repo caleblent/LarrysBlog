@@ -15,7 +15,9 @@
                 @endforeach
             </div>
         @endif
-    @elseif ($posts->count() <= 0)
+
+        {{ $posts-> links() }}
+    @else
         <p class="text-center">No posts yet!</p>
     @endif
 
