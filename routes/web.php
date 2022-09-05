@@ -4,6 +4,7 @@ use App\Http\Controllers\PostController;
 use Illuminate\Support\Facades\Route;
 use App\Models\Post;
 use App\Models\Category;
+// use App\View\Components\CategoryDropdown;
 
 
 /*
@@ -21,9 +22,10 @@ Route::get('/', [PostController::class, 'index'])->name('home');
 
 Route::get('/posts/{post:slug}', [PostController::class, 'show']);
 
-Route::get('categories/{category:slug}', function (Category $category) {
-    return view('posts', [
-        'posts' => $category->posts->load(['category'])
-    ]);
-});
+// Technically don't need this anymore
+// Route::get('categories/{category:slug}', function (Category $category) {
+//     return view('posts', [
+//         'posts' => $category->posts->load(['category'])
+//     ]);
+// });
 
